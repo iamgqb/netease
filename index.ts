@@ -5,8 +5,8 @@ import * as path from 'path';
 import * as os from 'os';
 import { extractMetaFromHtml, wtiteID3, rename } from './util';
 
-const cacheDir = "C:\\Users\\Gqb\\Downloads\\cacheMusic";
-const targetDir = "C:\\Users\\Gqb\\Music\\netease";
+const cacheDir = "cacheDir";
+const targetDir = "targetDir";
 
 function requestPromise(url: string): Promise<Buffer> {
     let protocol: typeof http | typeof https = http;
