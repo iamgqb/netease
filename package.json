@@ -1,0 +1,15 @@
+{
+  "name": "netease",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "gen": "tsc && node ./build/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^12.6.8",
+    "node-id3": "^0.1.8"
+  }
+}
